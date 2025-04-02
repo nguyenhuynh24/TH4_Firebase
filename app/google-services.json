@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "13891994168",
+    "firebase_url": "https://login-b51e0-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "login-b51e0",
+    "storage_bucket": "login-b51e0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:13891994168:android:4c4d190a878460e5f31ccd",
+        "android_client_info": {
+          "package_name": "com.example.loginfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjOoKsyX_ajbifNxY2_aw--4xzH175ykQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

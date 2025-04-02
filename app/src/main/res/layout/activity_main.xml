@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/edit_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Mật khẩu"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_dangky"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng ký" />
+
+    <Button
+        android:id="@+id/btn_dangnhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng nhập" />
+
+    <Button
+        android:id="@+id/btn_hienthi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hiển thị dữ liệu" />
+
+    <TextView
+        android:id="@+id/txt_dulieu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dữ liệu sẽ hiển thị ở đây"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
